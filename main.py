@@ -47,9 +47,9 @@ def main() -> None:
         )
         sys.exit(1)
 
-    # Crear y mostrar la ventana principal
+    # Crear y mostrar la ventana principal en pantalla completa
     ventana = VentanaPrincipal(db)
-    ventana.show()
+    ventana.showMaximized()
 
     sys.exit(app.exec_())
 
