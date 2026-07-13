@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Base de datos SQLite local (para no subir el historial de pruebas)
+*.db
+*.sqlite3
+
+# Reportes y exportaciones generadas localmente
+*.pdf
+*.json
+
+# macOS
+.DS_Store
+
+# PyInstaller (Carpetas de compilación del ejecutable)
+build/
+dist/
+*.spec
